@@ -24,12 +24,6 @@
   scroll-behavior: smooth;
 }
 
-/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
-ul[role="list"],
-ol[role="list"] {
-  list-style: none;
-}
-
 html,
 body {
   height: 100%;
@@ -39,6 +33,8 @@ body {
 body {
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+    font-family: var(--ff-primary);
+
 }
 
 /* A elements that don't have a class get default styles */
@@ -66,16 +62,8 @@ select {
 /*General styling*/
 body {
   font-family: var(--ff-primary);
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
-  background-color: #0c71e0;
+    background-color: #0077b6;
 }
-/* .container {
-  background-color: #353434;
-  margin: 0 auto;
-
-} */
 
 .country {
   --max-width: 800px;
@@ -101,7 +89,7 @@ body {
 .search-input {
   max-width: 300px;
   border: 0;
-  border-bottom: 2px solid var(--clr-blue);
+  border-bottom: 2px solid orange;
   color: #353434;
   background-color: floralwhite;
 }
@@ -110,7 +98,7 @@ body {
   padding: 0.5rem 1rem;
   border-radius: 100vmax;
   border: 0;
-  background-color: var(--clr-blue);
+  background-color: orange;
   color: floralwhite;
 }
 @media (min-width: 50em) {
